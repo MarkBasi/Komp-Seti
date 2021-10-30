@@ -1,0 +1,123 @@
+body {
+
+    background-color:mistyrose;
+    user-select: none;
+    }
+
+    .weather{
+        position: relative;
+        display: grid;
+        grid-gap: 4px;
+        grid-template-rows: 50px repeat(4, 1fr);
+        background-color:aliceblue;
+        border-radius: 20px;
+        width: 340px;
+        font-family: Ubuntu Condensed;
+        font-style: normal;
+        font-weight: normal;
+
+
+        height: 540px;
+        left:40%;
+    }
+
+    .weather_inner{
+
+        width: 100%;
+        height: 80px;
+        border: none;
+        font-size: 20px;
+        outline: none;
+        text-align: right;
+       
+       
+    
+    }
+    .current{
+        display: grid;
+        grid-template-rows: 24px 110px 24px;
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        
+    }
+
+    .current_date{
+        text-align: center;
+        
+    }
+    .current_temperature{
+
+        text-align: center;
+        font-size: 96px;
+    }
+    
+    .current_description {
+        text-align: center;
+        
+    }
+
+    .forecast{
+        display: grid;
+        grid-template-rows: 128px 24px;
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+
+    .details {
+        position: sticky;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-gap: 10px; */
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 220px;
+    }
+
+    .details_item{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 28px 1fr;
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .aboba{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 120px 1fr;
+        text-align: center;
+        grid-column-gap: 10px;
+        font-size: small;
+        font-weight: bold;
+        margin-top: 15px;
+
+    }
+    
+    .settings{
+        padding-left: 160px ;
+    }
+
+    .location{
+        padding-left: 20px;
+    }
+
+    .details_value{
+        text-align: left;
+    }
+
+    input{
+        position: relative;
+        left: 120px;
+    }
